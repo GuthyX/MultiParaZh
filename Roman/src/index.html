@@ -8,11 +8,8 @@
 <body>
   <h1>A JavaScript project</h1>
   Arab Number: <input type="number" name="arab" id="arab">
-  <button  onclick="Write(document.getElementById('arab').value)" >Convert</button>
+  <button  onclick="arabicToRoman(document.getElementById('arab').value)" >Convert</button>
   <script >
-    function Write(num){
-          arabicToRoman(num);
-    }
     function arabicToRoman(number){
       let roman = "";
       const romanNumList = {M:1000,CM:900, D:500,CD:400, C:100, XC:90,L:50, XV: 40, X:10, IX:9, V:5, IV:4, I:1};
