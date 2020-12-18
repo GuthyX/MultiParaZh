@@ -1,2 +1,0 @@
-# Roman
-A JavaScript project
