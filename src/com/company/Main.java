@@ -11,6 +11,7 @@ public class Main {
             int i = 0;
               while (i<darabok.size())
               {
+
                   darabok.get(i).Kiir();
                   i++;
               }

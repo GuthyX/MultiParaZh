@@ -12,8 +12,5 @@ public class Darabok {
     {
         System.out.println(word+" "+number);
     }
-    public  String nev()
-    {
-        return word;
-    }
+
 }
